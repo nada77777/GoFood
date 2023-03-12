@@ -1,0 +1,33 @@
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: var(--space-small);
+    /* box-shadow: var(--shadow-main); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    bottom: -10px;
+}
+
+.nav .button {}
+
+.nav .button .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-opacity);
+    padding: var(--space-small);
+    font-size: var(--size-big);
+    border-radius: var(--round-medium);
+}
+
+.nav .button .icon:hover {
+    background-color: #ffdada;
+    color: var(--color-red);
+}
+
+.nav .button .icon span {
+    font-size: var(--size-medium);
+    margin-top: 2px;
+    margin-left: 2px;
+}

@@ -1,0 +1,14 @@
+.button {
+    width: 45px;
+    height: 45px;
+    border-radius: var(--round-medium);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow-main);
+}
+
+.button:hover {
+    background-color: #F3F3F3;
+}

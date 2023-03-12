@@ -1,0 +1,30 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-red);
+    padding: var(--space-small);
+}
+
+
+.banner .title,
+.banner .dep {
+    color: white;
+}
+
+.banner .title {
+    font-size: var(--size-big);
+    font-weight: var(--weight-medium);
+    margin: 5px 0;
+}
+
+.banner .dep {
+    font-weight: var(--weight-thin);
+    font-size: var(--size-small);
+}
+
+.banner .img {
+    width: 130px;
+    height: 120px;
+    background: none;
+}

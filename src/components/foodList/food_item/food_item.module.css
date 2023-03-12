@@ -1,0 +1,38 @@
+.foodItemCard {
+    margin: var(--space-small) 0;
+    transition: all 200ms ease-in-out;
+}
+
+.foodItem {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.foodItem .img {
+    width: 80px;
+    height: 80px;
+}
+
+.foodItem .itemInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 var(--space-small);
+}
+
+.foodItem .itemInfo .title {
+    font-size: var(--size-medium);
+    font-weight: var(--weight-medium);
+}
+
+.foodItem .itemInfo .icon {
+    display: inline-block;
+    background-color: aqua;
+    align-items: center;
+    font-size: var(--size-big);
+}
+
+.foodItemCard:hover {
+    transform: scale(1.05);
+}

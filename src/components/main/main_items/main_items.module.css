@@ -1,0 +1,14 @@
+.mainItems {
+    margin-top: var(--space-big);
+}
+
+.mainItems .title {
+    font-size: var(--size-big);
+    margin-bottom: var(--space-medium);
+}
+
+.mainItems .items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
