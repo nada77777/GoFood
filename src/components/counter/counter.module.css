@@ -1,0 +1,23 @@
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-black);
+    background-color: #fbefef;
+    width: 100px;
+    padding: var(--space-min);
+    border-radius: var(--round-medium);
+}
+
+.counter span:nth-child(2) {
+    text-align: center;
+    font-weight: var(--weight-bold);
+}
+
+.counter span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--size-big);
+    margin: 0 calc(var(--space-min) + 2px);
+}

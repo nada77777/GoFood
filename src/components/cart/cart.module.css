@@ -1,0 +1,101 @@
+.cart .firstBox {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: var(--color-black);
+    padding: var(--space-big) 0;
+}
+
+.cart .firstBox .notice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-opacity);
+    font-weight: var(--weight-bold);
+    margin-bottom: var(--space-small);
+}
+
+.cart .firstBox .notice span:nth-child(2) {
+    color: var(--color-red);
+}
+
+.cart .firstBox .cartInfoBox {
+    border: 0.5px solid black;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.cart .firstBox .cartInfoBox::-webkit-scrollbar {
+    display: none;
+}
+
+.cart .firstBox .cartInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: var(--space-small) 0;
+    cursor: pointer;
+}
+
+.cartInfo .img {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--round-medium);
+}
+
+.cart .firstBox .cartInfo .titlePrice .title {
+    width: 120px;
+    /* padding:0 5px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cart .firstBox .cartInfo .price {
+    color: var(--color-red);
+    font-size: var(--size-medium);
+    font-weight: var(--weight-max);
+}
+
+
+
+.cart .priceList div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-min) 0;
+}
+
+.cart .priceList div .priceTitle {
+    font-weight: var(--weight-medium);
+    color: var(--color-opacity);
+}
+
+.cart .priceList div .price {
+    color: var(--color-black);
+}
+
+.cart .priceList div:nth-child(3) .priceTitle,
+.cart .priceList div:nth-child(3) .price {
+    color: var(--color-red);
+}
+
+.cart .priceList div:last-child {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: var(--space-big) 0;
+    font-size: var(--size-big);
+}
+
+.placeOrder {
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    padding: var(--space-medium);
+    margin: var(--space-big) 0;
+    /* font-size: var(--size-big); */
+    background-color: var(--color-red);
+    font-weight: var(--weight-medium);
+}

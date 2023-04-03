@@ -1,0 +1,26 @@
+.checkOption {
+    margin-top: var(--space-big);
+    padding-top: var(--space-big);
+    border-top: 1px solid #ccc;
+}
+
+.checkOption .title {
+    font-size: var(--size-big);
+    color: var(--color-black);
+}
+
+.checkOption .quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-small);
+}
+
+.form .inputLabel {
+    margin: var(--space-min) 0;
+}
+
+.form .inputLabel label {
+    color: var(--color-opacity);
+    margin-left: var(--space-min);
+}

@@ -1,0 +1,8 @@
+.itemList {
+    overflow-y: scroll;
+    height: 350px;
+}
+
+.itemList::-webkit-scrollbar {
+    display: none;
+}

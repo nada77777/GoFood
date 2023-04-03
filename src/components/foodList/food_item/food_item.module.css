@@ -28,9 +28,9 @@
 
 .foodItem .itemInfo .icon {
     display: inline-block;
-    background-color: aqua;
     align-items: center;
     font-size: var(--size-big);
+    color: var(--color-black);
 }
 
 .foodItemCard:hover {

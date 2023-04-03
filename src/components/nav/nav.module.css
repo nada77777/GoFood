@@ -1,12 +1,13 @@
 .nav {
-    position: relative;
+    position: absolute;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: white;
     padding: var(--space-small);
     /* box-shadow: var(--shadow-main); */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    bottom: -10px;
+    bottom: 0;
 }
 
 .nav .button {}

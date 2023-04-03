@@ -6,6 +6,7 @@
     --size-small: 12px;
 
     /* font weight */
+    --weight-max: 700;
     --weight-bold: 600;
     --weight-medium: 500;
     --weight-thin: 400;
@@ -23,6 +24,7 @@
     /* color */
     --color-red: #D23E3E;
     --color-opacity: #757575;
+    --color-black: #5c5b5b;
     --basic-color: #1B8BCB;
 
     /* box shadow */
@@ -74,6 +76,7 @@ code {
     width: 375px;
     height: 765px;
     padding: var(--space-medium);
+    overflow: hidden;
     border-radius: var(--round-medium);
     background-color: white;
 }

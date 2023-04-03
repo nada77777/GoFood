@@ -1,0 +1,67 @@
+.itemDetail {
+    margin-top: var(--space-big);
+}
+
+.itemDetail .img {
+    width: 100%;
+    height: 200px;
+    border-radius: 7px;
+}
+
+.inner {
+    padding: 0 var(--space-medium);
+    margin-top: var(--space-big);
+}
+
+.itemDetail .titlePrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemDetail .titlePrice .title {
+    color: var(--color-black);
+}
+
+.itemDetail .titlePrice .price {
+    font-weight: var(--weight-max);
+    color: var(--color-red);
+}
+
+.itemDetail .country {
+    font-weight: var(--weight-medium);
+    color: var(--color-opacity);
+    padding: var(--space-min) 0;
+}
+
+.itemDetail .average {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: var(--weight-medium);
+    color: var(--color-opacity);
+}
+
+.itemDetail .quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--space-small);
+}
+
+.itemDetail .quantity .title {
+    font-size: var(--size-big);
+    color: var(--color-black);
+}
+
+
+
+.addCart {
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    padding: var(--space-medium);
+    margin: var(--space-big) 0;
+    background-color: var(--color-red);
+    font-weight: var(--weight-medium);
+}
